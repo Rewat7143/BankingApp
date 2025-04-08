@@ -14,7 +14,7 @@
     </c:if>
 
     <!-- Login Form -->
-    <form action="${pageContext.request.contextPath}/loginUser" method="post">
+    <form action="${pageContext.request.contextPath}/login" method="post">
         <label>Username:</label>
         <input type="text" name="username" required /><br/><br/>
 
