@@ -39,4 +39,12 @@ public class UserEntity {
     public void setPassword(String password) {
         this.password = password;
     }
+
+	public void setEmail(String email) {
+				
+	}
+
+	public void setAddress(String address) {
+				
+	}
 }

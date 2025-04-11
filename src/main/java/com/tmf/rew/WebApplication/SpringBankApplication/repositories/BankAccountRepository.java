@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface BankAccountRepository extends JpaRepository<BankAccountEntity, Long> {
-    List<BankAccountEntity> findByUserUsername(String username);
+//    List<BankAccountEntity> findByUserUsername(String username);
 }

@@ -15,6 +15,8 @@ public class UserRegistrationController {
     public String showRegisterPage() {
         return "register";
     }
+    
+    
 
     @PostMapping("/registerUser")
     public String registerUser(@RequestParam String username, @RequestParam String password) {

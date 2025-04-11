@@ -7,5 +7,3 @@
 </head>
 <body>
     <h2>Add a New Bank Account</h2>
-
-    <form action="${pageContext.request.contextPath}/saveBankAccount" method
